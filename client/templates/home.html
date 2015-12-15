@@ -1,7 +1,9 @@
 <template name="home">
-
-    This is home
+ 
+    {{> dropzone}}   
     
-    
+    {{#each images}}
+        {{> image}}
+    {{/each}} 
 
 </template>

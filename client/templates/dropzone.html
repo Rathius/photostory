@@ -1,0 +1,15 @@
+<template name="dropzone">
+
+    {{#if currentUser}}
+        <div id="dropzone" class="dropzone">
+            <div class="well well-drop-zone">
+                Drop file(s) here to upload
+            </div>
+        </div>
+    {{else}}
+        <div class="col-md-12 dropzone-not">
+            <h4>Login to upload a file</h4>
+        </div>
+    {{/if}}
+
+</template>
