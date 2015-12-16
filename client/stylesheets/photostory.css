@@ -14,6 +14,10 @@ body {
     border-bottom: 1px solid #ccc;
 }
 
+.imageInfo {
+    margin-top: 20px;
+}
+
 .img-rounded {
     max-height: 140px !important;
     max-width: 140px !important;
@@ -22,4 +26,20 @@ body {
 .dropzone-not {
     padding-bottom: 20px;
     margin-bottom: 20px;
+}
+
+.modal {
+    margin-top: 25px;
+}
+
+.modal-title {
+    color: #fff;
+}
+
+.modal-header {
+    background: #337AB7;
+}
+
+.panel-body, .panel-title{
+    color: #000;
 }
